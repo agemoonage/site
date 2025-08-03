@@ -1,20 +1,33 @@
 lang: zh-CN
-
-# 网站基本信息
 title: 个人网站
-description: 为了积累我的个人知识，创立了这个网站。
-url: "https://agemoonage.github.io" # GitHub Pages 的主地址
-baseurl: "/site" # 仓库名为 site
+email: 隐私
+description: >- 
+  为了积累个人知识，创立这个网站
+baseurl: "" # 如果你的站点不是部署在根目录，填写子路径，比如 /site
+url: "https://agemoonage.github.io/site/"     # 你网站的URL，比如 https://agemoonage.github.io
 
-# GitHub 用户名
+twitter_username: 隐私
 github_username: agemoonage
 
-# 构建设置
-theme: jekyll-theme-cayman
+# 主题名称，minima 是 Jekyll 默认且官方支持的主题
+theme: minima
+
 plugins:
   - jekyll-feed
 
-# 可选：显示在页面底部的时间格式
-timezone: Asia/Shanghai
+# 排除不需要构建的文件夹或文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# 支持中文，添加如下（虽然主题字体是英文，但能支持中文显示）
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter_opts:
+    line_numbers: true
 
 
