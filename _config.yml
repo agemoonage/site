@@ -1,8 +1,8 @@
 lang: zh-CN
 title: 个人网站
-description: 这是一个 Jekyll 站点，欢迎访问我的个人网站。
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description:  为了积累我的个人知识，创立了这个网站。
+baseurl: "标题" 
+url: "抬头" 
 github_username:  agemoonage
 
 # Build settings
