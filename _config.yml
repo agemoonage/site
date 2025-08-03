@@ -1,0 +1,13 @@
+lang: zh-CN
+title: 个人网站
+description: 这是一个 Jekyll 站点，欢迎访问我的个人网站。
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  agemoonage
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+
